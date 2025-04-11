@@ -14,9 +14,6 @@ direction = "RIGHT"
 
 food = (10*random.randint(0, 59), 10*random.randint(0, 59))
 
-    
-
-
 
 def move(direction, grow = False):
         if direction == "RIGHT":
@@ -84,10 +81,6 @@ while running:
 
 
     pg.display.flip()
-
-
-
-
 
     
 pg.quit()
